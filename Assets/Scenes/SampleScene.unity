@@ -380,7 +380,7 @@ MonoBehaviour:
   - {fileID: 8169857952672499287, guid: d78c19990585862429db95f97d8ce859, type: 3}
   - {fileID: 3809627121970713667, guid: d2729f339c6bcca4292a02194ec93b47, type: 3}
   minSpawnTime: 0.5
-  maxSpawnTime: 3
+  maxSpawnTime: 2
 --- !u!1 &1421021273
 GameObject:
   m_ObjectHideFlags: 0
