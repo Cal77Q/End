@@ -274,13 +274,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729957278}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0075048283, y: -0.0030542014, z: -0.000022922011, w: 0.99996716}
-  m_LocalPosition: {x: 2.73, y: -0.45, z: 1.79}
+  m_LocalRotation: {x: -0.0075047608, y: -0.005235811, z: -0.00003929515, w: 0.9999582}
+  m_LocalPosition: {x: 2.41, y: -0.52, z: 1.79}
   m_LocalScale: {x: 0.25, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 519420032}
-  m_LocalEulerAnglesHint: {x: -0.86, y: -0.35, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.86, y: -0.6, z: 0}
 --- !u!1 &1401743327
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +307,7 @@ Transform:
   m_GameObject: {fileID: 1401743327}
   serializedVersion: 2
   m_LocalRotation: {x: 0.020767886, y: 0.001744919, z: -0.00003624615, w: 0.9997828}
-  m_LocalPosition: {x: 2.44, y: 0.73, z: 1.79}
+  m_LocalPosition: {x: 4.37, y: 0.4, z: 1.79}
   m_LocalScale: {x: 0.28, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -356,13 +356,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417635597}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.020767886, y: 0.001744919, z: -0.00003624615, w: 0.9997828}
-  m_LocalPosition: {x: 2.67, y: 0.21, z: 1.79}
+  m_LocalRotation: {x: 0.02076781, y: 0.0032281103, z: -0.00006705559, w: 0.99977916}
+  m_LocalPosition: {x: 3.31, y: -0.08, z: 1.79}
   m_LocalScale: {x: 0.28, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 519420032}
-  m_LocalEulerAnglesHint: {x: 2.38, y: 0.2, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.38, y: 0.37, z: 0}
 --- !u!114 &1417635599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,7 +461,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -472,7 +472,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1421021277
 SpriteRenderer:
   m_ObjectHideFlags: 0
