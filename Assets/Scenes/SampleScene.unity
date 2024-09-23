@@ -511,7 +511,7 @@ MonoBehaviour:
   - {fileID: 2772476279397646770, guid: 833032ef887064548a76617b9dadbd1d, type: 3}
   - {fileID: 8169857952672499287, guid: d78c19990585862429db95f97d8ce859, type: 3}
   - {fileID: 3809627121970713667, guid: d2729f339c6bcca4292a02194ec93b47, type: 3}
-  minSpawnTime: 0.3
+  minSpawnTime: 0.4
   maxSpawnTime: 2.7
 --- !u!4 &729957280
 Transform:
