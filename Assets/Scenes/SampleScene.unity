@@ -943,7 +943,7 @@ MonoBehaviour:
   - {fileID: 8169857952672499287, guid: d78c19990585862429db95f97d8ce859, type: 3}
   - {fileID: 3809627121970713667, guid: d2729f339c6bcca4292a02194ec93b47, type: 3}
   minSpawnTime: 0.4
-  maxSpawnTime: 2.5
+  maxSpawnTime: 2.6
 --- !u!1 &1417635597
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +993,7 @@ MonoBehaviour:
   - {fileID: 8169857952672499287, guid: d78c19990585862429db95f97d8ce859, type: 3}
   - {fileID: 3809627121970713667, guid: d2729f339c6bcca4292a02194ec93b47, type: 3}
   minSpawnTime: 0.6
-  maxSpawnTime: 2.2
+  maxSpawnTime: 2.4
 --- !u!1 &1421021273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,7 +1071,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2.3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1.6
@@ -1165,7 +1165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036346c946b7bac41b59c26a62328e61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 7
   jumpForce: 11.9
   groundCheckPoint: {fileID: 1421021278}
   checkRadius: 0.8

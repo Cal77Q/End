@@ -10,12 +10,18 @@ public class NewBehaviourScript : MonoBehaviour
     public float checkRadius = 0.2f;
     public LayerMask groundLayer;
 
+    public AudioClip jump;
+    AudioSource playerSFX;
+
+
+
     private Rigidbody2D rb;
     private bool isGrounded;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerSFX = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,6 +36,7 @@ public class NewBehaviourScript : MonoBehaviour
         // jumping logic
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
+            playerSFX.PlayOneShot(jump);
             Jump();
         }
     }
