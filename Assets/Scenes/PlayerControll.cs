@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
 
     public AudioClip jump;
     public AudioClip background;
-
     public AudioSource sfxPlayer;
     public AudioSource musicPlayer;
 
