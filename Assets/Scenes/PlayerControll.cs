@@ -8,6 +8,13 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D playerObject;
     public float speed = 100f;
 
+    public AudioClip jump;
+    public AudioClip background;
+
+    public AudioSource sfxPlayer;
+    public AudioSource musicPlayer;
+
+
     // Start is called before  the first frame update 
     void Start()
     {
