@@ -13,7 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
     public AudioClip jump;
     AudioSource playerSFX;
 
-
+    Animator anim;
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -39,7 +39,27 @@ public class NewBehaviourScript : MonoBehaviour
             playerSFX.PlayOneShot(jump);
             Jump();
         }
+
+        if (isGrounded)
+        {
+            anim.SetBool("IsGrounded", true);
+        }
+        if (isGrounded == false)
+        {
+            anim.SetBool("IsGrounded", false);
+        }
+
+
+
+
+
+
     }
+
+
+
+
+
 
     private void Jump()
     {

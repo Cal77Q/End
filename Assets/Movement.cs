@@ -15,13 +15,17 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     // Start is called before the first frame update
-    void Start()
+
+    Animator anim;
+    
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         // Constant Forward movement
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
@@ -34,6 +38,8 @@ public class Movement : MonoBehaviour
         {
             Jump();
         }
+
+        anim.SetBool("IsOnGround", isGrounded);
     }
 
     private void Jump()
