@@ -149,27 +149,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump sprite_0
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 109
-        width: 474
-        height: 673
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e42b409841c48b45a3739e937b42ac8
-      internalID: -972422382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Jump sprite_1
       rect:
         serializedVersion: 2
@@ -205,29 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ead1a6354d0c08428a41529399a63bc
+      spriteID: 27fa07bddd2be1f4096f7a9faa355ec4
       internalID: 1874357355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump sprite_3
-      rect:
-        serializedVersion: 2
-        x: 1847
-        y: 278
-        width: 435
-        height: 733
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a36160409690c644780bdc0fe92260d9
-      internalID: 733535846
       vertices: []
       indices: 
       edges: []
@@ -247,8 +205,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a11543f1f6b88046b00089b640026b2
+      spriteID: 5a67073d26aa18b4f9ce47127217a13b
       internalID: -1497309401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 277
+        width: 435
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabe1029427d7df4cb0126e8c5fc19ea
+      internalID: 733535846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump sprite_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 109
+        width: 474
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60584953505c3eb46ad9891f43a54bb4
+      internalID: -972422382
       vertices: []
       indices: 
       edges: []
@@ -268,7 +268,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 628eea6a2684c0046bc47d8e0ed54a19
+      spriteID: eabfc904c313ccf489be25428d6cfbcd
       internalID: 1775513410
       vertices: []
       indices: 
