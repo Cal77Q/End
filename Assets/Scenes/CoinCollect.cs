@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CoinCollect : MonoBehaviour
+{
+   
+
+        void OntriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("player"))
+            {
+                Destroy(gameObject);
+
+            }
+        }
+
+    
+
+
+}
+ 

@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 6396437618051178414}
   - component: {fileID: 6624799030920979779}
   - component: {fileID: 7389269948787586541}
+  - component: {fileID: 3723450492825237500}
   m_Layer: 3
   m_Name: SmallPlatform
   m_TagString: CleanUp
@@ -215,3 +216,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3723450492825237500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772476279397646770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db9899b561c57134790e62eb89ba0a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPrefab: {fileID: 8340039725587122255, guid: 56e22e2a77783f64ea125d36c88c27e9, type: 3}
+  coinOffset: {x: 0, y: 1}
