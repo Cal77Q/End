@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D playerObject;
     public float speed = 100f;
 
+    
+    
+    
+    
+    
     public AudioClip jump;
     public AudioClip background;
     public AudioSource sfxPlayer;

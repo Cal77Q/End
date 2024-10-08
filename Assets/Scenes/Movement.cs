@@ -15,9 +15,18 @@ public class NewBehaviourScript : MonoBehaviour
 
     Animator anim;
 
+    
+
     private Rigidbody2D rb;
     private bool isGrounded;
     // Start is called before the first frame update
+
+  
+
+
+
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
