@@ -228,5 +228,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9899b561c57134790e62eb89ba0a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinPrefab: {fileID: 8340039725587122255, guid: 56e22e2a77783f64ea125d36c88c27e9, type: 3}
+  CollectablePrefab: {fileID: 8340039725587122255, guid: 56e22e2a77783f64ea125d36c88c27e9, type: 3}
   coinOffset: {x: 0, y: 1}

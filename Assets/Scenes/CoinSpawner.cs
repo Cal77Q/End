@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CoinSpawner : MonoBehaviour
 {
-    public GameObject coinPrefab;
+    public GameObject CollectablePrefab;
 
     public Vector2 coinOffset = new Vector2(0, 1);
    
@@ -20,6 +20,6 @@ public class CoinSpawner : MonoBehaviour
     {
         Vector3 coinPosition = transform.position + (Vector3)coinOffset;
 
-        Instantiate(coinPrefab, coinPosition, Quaternion.identity);
+        Instantiate(CollectablePrefab, coinPosition, Quaternion.identity);
     }
 }
