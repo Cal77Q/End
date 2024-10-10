@@ -1027,8 +1027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -450.5, y: 232}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -887, y: 497}
+  m_SizeDelta: {x: 332.6425, y: 130.0861}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987733949
 MonoBehaviour:
@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Coin Counter :'
+  m_text: 'Coin :'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a66ff6221e2e184193338dd4f7e7810, type: 2}
   m_sharedMaterial: {fileID: -3877756453336540382, guid: 0a66ff6221e2e184193338dd4f7e7810, type: 2}
@@ -1570,8 +1570,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 400, y: 186.73}
-  m_SizeDelta: {x: 800, y: 373.49}
+  m_AnchoredPosition: {x: 400, y: 224.94}
+  m_SizeDelta: {x: 800, y: 449.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1343574360
 MonoBehaviour:
